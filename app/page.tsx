@@ -1,4 +1,4 @@
-"useClient"
+
 
 import { fetchCars } from "@utils";
 import { HomeProps } from "@types";
@@ -56,5 +56,5 @@ export default async function Home({ searchParams }: HomeProps) {
         )}
       </div>
     </main>
-  )
+  );
 }
